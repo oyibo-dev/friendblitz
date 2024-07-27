@@ -55,6 +55,14 @@ function MainNav() {
           <a
             className="duration-300 focus:text-orange/90 hover:text-lila-900 px-4 py-2 transform transition md:ml-8 lg:ml-16 2xl:ml-0"
             title=""
+            aria-label="home"
+            href="/"
+          >
+            Home
+          </a>
+          <a
+            className="duration-300 focus:text-orange/90 hover:text-lila-900 px-4 py-2 transform transition"
+            title=""
             aria-label="free points"
             href="/free-points"
           >
@@ -67,14 +75,6 @@ function MainNav() {
             href="/leaderboard"
           >
             Leaderboard
-          </a>
-          <a
-            className="duration-300 focus:text-orange/90 hover:text-lila-900 px-4 py-2 transform transition"
-            title=""
-            aria-label="community"
-            href="/community"
-          >
-            Community
           </a>
           <a
             className="duration-300 focus:text-orange/90 hover:text-lila-900 px-4 py-2 transform transition"

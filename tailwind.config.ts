@@ -127,14 +127,10 @@ const config: Config = {
         "prose-code": "var(--tw-prose-code)",
       },
       boxShadow: {
-        DEFAULT: "0px 5px rgba(0, 0, 0, 0.1)",
-        large: "0px 10px rgba(0, 0, 0, 0.1)",
-        lg: "0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -4px rgba(0, 0, 0, 0.1)",
-        md: "0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.1)",
-        small: "0px 3px rgba(0, 0, 0, 0.1)",
-        tiny: "0px 1.5px rgba(0, 0, 0, 0.1)",
-        black: "0 4px 6px rgba(20, 21, 32, 0.1)", // Use rgba for shadows
-        white: "0 4px 6px rgba(245, 245, 245, 0.1)", // Use rgba for shadows
+        DEFAULT: "0px 5px",
+        large: "0px 10px",
+        small: "0px 3px",
+        tiny: "0px 1.5px",
       },
     },
   },
